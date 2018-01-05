@@ -1,0 +1,57 @@
+\documentclass[addpoints]{exam}[14pt]
+\usepackage{amsmath,amssymb,amsthm,tikz,enumerate,pgfplots,tabulary}
+\usepackage{graphicx}
+
+% Keep these all in one place to prevent typos
+\newcommand{\CLASS}{CLASS}
+\newcommand{\DATE}{\today}
+\newcommand{\EXAM}{Exam}
+\newcommand{\DURATION}{DURATION}
+
+%\pgfplotsset{samples=50} % Draft quality (faster compiling)
+\pgfplotsset{samples=2500} % High quality
+
+\pagestyle{foot}
+\cfoot{Page \thepage\mbox{ of }\numpages} % page numbering
+\pagestyle{headandfoot}
+\firstpageheader{\CLASS}{\EXAM}{\DATE}
+\setlength{\textheight}{9.25in} \setlength{\voffset}{-0.2in}
+
+\begin{document}
+\begin{coverpages}
+\centerline{\bf\LARGE \CLASS, \EXAM}
+\centerline{\large \DATE}
+
+\vfill
+\vskip0.2in
+\noindent{\large \textsc{PRINT your name:}} \hrulefill
+
+\begin{center}
+\vfill
+\noindent\begin{tabulary}{\textwidth}{LR}
+\vspace{.03in}
+\renewcommand\arraystretch{1.5}
+\gradetable[v][questions]
+\end{tabulary}
+\end{center}
+
+This is a test.  Please work by yourself.
+
+\vfill
+\end{coverpages}
+\vfill\eject
+
+\fontsize{12}{18}\selectfont
+
+\begin{questions}
+
+\question[100] 
+
+What is a question?
+
+
+\vfill
+
+
+\end{questions}
+\end{document}

@@ -1,0 +1,52 @@
+% File: article.tex
+% Description:
+%   This is intended to be a simple,
+%   short, but practical template for
+%   basic, headered documents.
+% Author: Jared Nishikawa
+% Date: November 23, 2016
+
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+
+\newcommand{\namesigdate}[2][5cm]{
+    \begin{tabular}{@{}p{#1}@{}}
+    #2 \\[2\normalbaselineskip] \hrule \\[0pt]
+    {\small \textit{Signature}} \\[2\normalbaselineskip] \hrule \\[0pt]
+    {\small \textit{Date}}
+    \end{tabular}
+}
+
+\begin{document} 
+
+%%%%%%%%%%HEADER%%%%%%%%%%%%%%%%%
+\begin{center}
+
+	\hrulefill\\
+	\hrulefill\\
+                Document - Title\\
+		Last Revised: \today\\
+	\hrulefill\\
+	\hrulefill\\
+
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%SUMMARY%%%%%%
+%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%%%%%%%%BODY%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%
+ 
+%\namesigdate
+
+\end{document}
+

@@ -1,0 +1,6 @@
+target: XXXXXX.tex
+	pdflatex XXXXXX.tex
+	evince XXXXXX.pdf&
+
+edit: XXXXXX.tex
+	vim XXXXXX.tex
